@@ -1,0 +1,133 @@
+html, body,{
+	color: black;
+    overflow-x: hidden;
+	overflow-y: auto;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#navbarSupportedContent{
+	font: Calibri;
+	font-size: 16px;
+	width: 100%;
+	margin-left: 10%;
+	margin-top: 15px;
+    border: 0;
+	position: inherit;
+}
+
+div#navbarSupportedContent ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div#navbarSupportedContent ul li {
+    display: inline;
+}
+
+div#navbarSupportedContent ul li a {
+	color: white;
+	padding: 18px;
+}
+div#navbarSupportedContent ul li a:hover{
+	background-color: rgba(149,195,201,0.4);
+	color: white;
+	text-decoration: none;
+}
+div#navbarSupportedContent ul li a:visited:hover{
+	color: white;
+	text-decoration: none;
+}
+div#navbarSupportedContent ul li a:active{
+	color: white;
+	text-decoration: none;
+}
+
+
+.container-fluid{
+   height:100%;
+   width: 100%;
+   left:0;
+   right:0;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   position:fixed;
+}
+
+.banner{
+   margin: 0;
+   padding:0;
+   border: 0;
+	 height: 100%;
+   width: 100%;
+	 position: relative;
+	 height: auto;
+	 top: -90px;
+	 z-index: -1;
+	 user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+.navbar{
+   min-height: 50px;
+}
+.nav-link{
+	font: Helvetica;
+	color: white;
+}
+ .dropdown {
+   list-style: none;
+   border-top-color: transparent;
+ }
+
+ .dropdown-toggle {
+   padding: 5px;
+   text-decoration: none;
+   border-bottom-color: transparent;
+   margin-bottom: -1px;
+ }
+
+ .dropdown-menu {
+   margin: 0;
+   list-style: none;
+   white-space: nowrap;
+   padding: 10px;
+   border: 0px;
+   background-color: transparent;
+ }
+.dropdown-item{
+   left:0;
+   right:0;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+.content-body{
+	position:absolute;
+	display: inlilne-block;
+}
+
+.content-container{
+	padding-top: 5%;
+	padding-right: 10px;
+	height: 100%;
+	width: 100%;
+}
+.services-icon{
+	height: 65%;
+	width: 40%;
+}
+.logo{
+	background-color: transparent;
+	height: 30%;
+	width: 30%;
+}
+.btn-warning{
+
+}
